@@ -17,7 +17,8 @@ while len(Players) > 0:
 
     teamA.append(playerA)
     Players.remove(playerA)
-
+    if Players == []:
+        break
     playerB = choice(Players)
 
     teamB.append(playerB)
