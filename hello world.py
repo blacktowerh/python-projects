@@ -10,11 +10,20 @@ def multiply(x,y):
 def divide(x,y):
     return x/y
 
+
+
+
+
+
+
 print("select operation")
 print("1 to add")
 print("2 to subtract")
 print("3 to multiply")
 print("4 to divide")
+print("5 to pop and print values1")
+print("6 to pop and print values6")
+
 
 choice = input("Enter the operation")
 
