@@ -5,7 +5,8 @@
 from random import choice
 
 Players = []
-file = open('C:\Users\Harry Torrenegra\PycharmProjects\python-projects\players.txt', 'r')
+file = open(r"C:\Users\Harry Torrenegra\PycharmProjects\python-projects\players.txt", 'r')
+Players = file.read().splitlines()
 #print(playerA)
 
 teamA = []
